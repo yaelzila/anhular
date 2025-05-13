@@ -1,0 +1,9 @@
+.manager-section{
+    text-align: right;
+    .nav {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+ }
+}
+    

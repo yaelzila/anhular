@@ -1,0 +1,13 @@
+
+@for(volunteer of volunteers; track $index) {
+    <!-- @if(volunteer?.age > 18) { -->
+        <div>
+            <span>{{volunteer.firstName}} </span>
+            <span>{{volunteer.lastName}} </span>
+            <span>{{volunteer.age}} </span>
+        </div>
+    <!-- } -->
+
+}
+
+<button (click)="sendTextToParent()">click here to end</button>
